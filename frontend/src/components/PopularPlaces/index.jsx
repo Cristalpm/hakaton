@@ -5,10 +5,14 @@ const PopularPlaces = ({ name }) => {
   return (
     <div className={styles.root}>
       <div className={styles.top}>
-        <p>{name}</p>
+        <p>
+          {name === "travel"
+            ? "Популярные места для вашего направления"
+            : "Популярные места для ваших путешествий"}
+        </p>
         <span>Узнать подробнее</span>
       </div>
-      <div className={styles.cart}>
+      <div className={`${styles.cart} {}`}>
         {[1, 2, 3, 4].map((_, i) => (
           <div key={i} className={styles.elem}>
             <div className={styles.image}></div>

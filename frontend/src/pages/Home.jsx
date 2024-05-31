@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <PopularPlaces name={"Популярные места для вашего направления"} />
-      <PopularPlaces name={"Популярные места для ваших путешествий"} />
+      <PopularPlaces name={""} />
     </div>
   );
 };
