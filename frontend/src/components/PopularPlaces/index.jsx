@@ -12,7 +12,11 @@ const PopularPlaces = ({ name }) => {
         </p>
         <span>Узнать подробнее</span>
       </div>
-      <div className={`${styles.cart} {}`}>
+      <div
+        className={`${styles.cart} ${
+          name === "travel" ? styles.travel : styles.way
+        }`}
+      >
         {[1, 2, 3, 4].map((_, i) => (
           <div key={i} className={styles.elem}>
             <div className={styles.image}></div>
