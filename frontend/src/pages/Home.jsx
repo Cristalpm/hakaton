@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <PopularPlaces name={"travel"} />
-      <PopularPlaces name={"way                       w"} />
+      <PopularPlaces name={"way"} />
     </div>
   );
 };
