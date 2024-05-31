@@ -1,4 +1,6 @@
 import React from "react";
+import styles from "./Home.module.scss";
+import PopularPlaces from "../components/PopularPlaces";
 
 const Home = () => {
   const [active, setActive] = React.useState(0);
