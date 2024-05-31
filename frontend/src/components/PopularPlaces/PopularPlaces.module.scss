@@ -9,7 +9,9 @@
       background-color: #c2cff0;
       border-radius: 5px;
       display: flex;
-
+      &.way {
+        background-color: #fff8e1;
+      }
       .image {
         height: 100%;
         width: 235px;

@@ -18,7 +18,10 @@ const PopularPlaces = ({ name }) => {
         }`}
       >
         {[1, 2, 3, 4].map((_, i) => (
-          <div key={i} className={styles.elem}>
+          <div
+            key={i}
+            className={`${styles.elem} ${name === "way" ? styles.way : ""}`}
+          >
             <div className={styles.image}></div>
             <div className={styles.text}>
               <div>
