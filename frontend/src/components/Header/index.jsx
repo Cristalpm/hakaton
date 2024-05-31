@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Header.module.scss";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ isEnter }) => {
   console.log(styles);
   return (
-    <header className={styles.root}>
+    <header className={`${styles.root} ${isEnter ? styles.entered : ""}`}>
       <div className={styles.container}>
         <div className={styles.navigation}>
           <ul>

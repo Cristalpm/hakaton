@@ -4,6 +4,10 @@
   height: 400px;
   background: url("/background.png") no-repeat;
   background-position: center;
+  &.entered {
+    background: none;
+    background-color: #2f5566;
+  }
 
   .container {
     padding: 0 20px;
