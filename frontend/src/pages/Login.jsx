@@ -5,11 +5,7 @@ const Login = ({ setIsEnter }) => {
   React.useEffect(() => {
     setIsEnter(true);
   }, []);
-  return (
-    <div>
-      <Button>Войти</Button>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Login;
